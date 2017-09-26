@@ -1,0 +1,24 @@
+1491854627922	geckodriver	INFO	Listening on 127.0.0.1:61528
+1491854630038	mozprofile::profile	INFO	Using profile path C:\Users\Alex\AppData\Local\Temp\rust_mozprofile.jukrW7H2nuE1
+1491854630054	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1491854630069	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61534
+1491854631329	Marionette	INFO	Listening on port 61534
+1491854631780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1491854636937	Marionette	INFO	New connections will no longer be accepted
+[Child 5844] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1491854661109	geckodriver	INFO	Listening on 127.0.0.1:61559
+1491854663150	mozprofile::profile	INFO	Using profile path C:\Users\Alex\AppData\Local\Temp\rust_mozprofile.GVcwZcW9MKsx
+1491854663166	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1491854663181	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61565
+1491854664511	Marionette	INFO	Listening on port 61565
+1491854664937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1491854670092	Marionette	INFO	New connections will no longer be accepted
+[Child 6112] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1491858352854	geckodriver	INFO	Listening on 127.0.0.1:62391
+1491858354901	mozprofile::profile	INFO	Using profile path C:\Users\Alex\AppData\Local\Temp\rust_mozprofile.Z2vsZfpqR96R
+1491858354916	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1491858354932	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62397
+1491858356172	Marionette	INFO	Listening on port 62397
+1491858356562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1491858360016	Marionette	INFO	New connections will no longer be accepted
+[Child 3976] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
