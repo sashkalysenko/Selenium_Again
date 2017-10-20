@@ -20,4 +20,3 @@ def app(request):
     wd.open_home_page()
     request.addfinalizer(wd.destroy)
     return wd
-

@@ -71,3 +71,9 @@ class CountryPage(BasePage):
                 'td:nth-child({0})'.format(column_index)).text)
         self.driver.find_element_by_css_selector("#box-apps-menu li:nth-child(3)").click()
         return timezones_list
+
+    def add_new_country(self):
+        self.driver.find_element_by_css_selector("a.button").click()
+
+    def links_in_separate_window(self):
+        return self.driver.find_elements_by_css_selector("a[target='_blank'] i[class='fa fa-external-link']")

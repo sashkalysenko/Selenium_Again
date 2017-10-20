@@ -28,6 +28,7 @@ class AdminApplication:
         driver = self.wd
         logout_btn = driver.find_elements_by_css_selector("i.fa.fa-sign-out.fa-lg")
         if len(logout_btn) > 0:
+            driver.execute_script("arguments[0].scrollIntoView();", logout_btn[0])
             logout_btn[0].click()
         else:
             raise LookupError("Logout button has not found")
